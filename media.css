@@ -1,0 +1,648 @@
+@media (max-width: 43.75rem){
+    .wrap_shoppingCartBtn{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav_toogle{
+        display: inline-block;
+    }
+    #nav_toogle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5%;
+        min-width: 200px;
+        height: 100%;
+
+        background-color: black;
+        opacity: 0.9;
+    }
+    nav ul li{
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    
+
+
+
+    .logo-main{
+        width: 6.5rem;
+    }
+    /* Welcom */
+    .container__wel--content{
+        padding-top: 0;
+        padding-left:0.625rem;
+    }
+    .container__wel{
+        margin-top: 1rem;
+        min-width: 0;
+        min-height: 0;
+        padding-bottom: 1rem;
+    }
+    .text__Italic{
+        font-size: 1.3rem;
+        line-height: 2.1875rem;
+    }
+    .container__fontTextH1{
+        height: 2rem;
+        padding-bottom: 1rem;
+
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .container__wel--Btn{
+        width: 8rem;
+        height: 2.3rem;
+    }
+    .container__textWel--Btn{
+        margin-left: 0.6rem;
+
+        font-size: 0.6rem;
+    }
+    /* Benefits */
+    .container__benefitscontent{
+        margin-top:1.5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        margin-right: 0;
+    }
+    .container__benefitscontent--natural{
+        flex-grow: 0;
+        height: 10.625rem;
+        min-width: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .container__benefitscontent--Text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0.4375rem;
+        margin-top: 1.5625rem;
+
+        font-size: 1.25rem;
+        line-height: 2.0625rem;
+    }
+    .container__benefitscontent--offer{
+        height: 10.625rem;
+        min-width: 0;
+        flex-grow: 0;
+    }
+    /* About */
+    .wrap__about{
+        margin-top: 2.1875rem;
+        height: 26.875rem;
+    }
+    .container__about{
+        padding: 1.5rem 0 1.5rem 0.875rem;
+    }
+    .container__about--wrapText{
+        height: 20rem;
+    }
+    .container__about--img{
+        width: 0;
+        height: 0;
+        margin: 0;
+
+        background-image: none;
+    }
+    .container__about--TextIntroduction{
+        height: 10.375rem;
+        width: 23rem;
+        margin-bottom: 1.875rem;
+    }
+    .about_Text--header{
+        font-size: 1.625rem;
+        line-height: 2rem;
+    }
+    .about_Text--descriptions{
+        padding-top: 1rem;
+        
+        font-size: 0.6rem;
+        line-height: 1.3rem;
+    }
+    .container__about--PngFirst{
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+    .container__about--PngSecond{
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+    .container__about--TextbenefitsFirst{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .container__about--Textbenefits{
+        padding-bottom: 1.125rem;
+        padding-top: 0.5rem;
+        margin: 0;
+    }
+    .container__about--TextbenefitsSecond{
+        display: flex;
+    }
+    .container__about--TextbenefitsFirstDescription{
+        width: 19rem;
+        height: 2rem;
+    }
+    .container__about--TextbenefitsSecondDescription{
+        width: 19rem;
+        height: 2rem;
+    }
+    .container__about--TextbenefitsFirstDescriptionHeader{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .container__about--TextbenefitsFirstDescriptionSmall{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    .container__about--btn{
+        width: 6.5rem;
+        height: 2.2rem;
+    }
+    .container__about--Textbtn{
+        margin-left: 0.5rem;
+
+        font-size: 0.6rem;
+        line-height: 0.5rem;
+    }
+    .container__about--btn__arrow{
+        width: 0.625rem;
+        height: 0.625rem;
+        margin-right: 0.5625rem;
+
+        border-radius: 0.1875rem;
+    }
+    .container__about--btn__arrow-png{
+        margin-left: 0.0625rem;
+    }
+    /* Products */
+    .products{
+        height: 86.1875rem;
+        margin-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .products__brokalli{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+
+        border-radius: 1.1875rem;
+    }
+    .products__legend{
+        height: 1.3125rem;
+        width: 4.375rem;
+        margin-left: 0.875rem;
+        margin-top: 0.875rem;
+
+        border-radius: 0.5rem;
+    }
+    .products__legend--Text{
+        width: 2.875rem;
+        height: 0.6875rem;
+        margin-top: 0.3125rem;
+        margin-left: 0.5rem;
+
+        font-size: 0.5rem;
+        line-height: 0.6875rem;
+    }
+    .img__products{
+        width: 7.1875rem;
+        height: 9.625rem;
+    }
+    .products__img--brokalli{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__description--stars{
+        width: 5.3125rem;
+        height: 1.1875rem;
+    }
+    .form{
+        height: 4rem;
+        margin: 0 0.875rem 0 0;
+    }
+    .text__form{
+        font-size: 1.4125rem;
+        line-height: 1.225rem;
+    }
+    .block__products{
+        margin-top: 1.1875rem;
+        height: 98.3125rem;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .products__description{
+    margin-top: 0rem;
+    margin-left: 0.3rem;
+    }
+    .products__description--wrapMoney{
+        display: flex;
+        margin-top: 0.3rem;
+    }
+    .products__description--Money{
+        display: flex;
+        width: 15.625rem;
+        margin-right: 0rem;
+    }
+    .products__description--name{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .money{
+        margin-right: 0.625rem;
+
+        font-size: 1.0625rem;
+        line-height: 2rem;
+    }
+    .moneysecond{
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    .products__description--stars{
+        margin-top: 0.528125rem;
+    }
+    .rect{
+        height: 0.0625rem;
+        width: 20rem;
+        align-items: left;
+    }
+    .products__img--Corn{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__Corn{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+    }
+    .products__img--Pist{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__Pist{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+    }
+    .products__legendMill{
+        border-radius: 0.5rem;
+        height: 1.3125rem;
+        width: 4.3125rem;
+        display: flex;
+        margin-left: 0;
+        margin-top: 0.8rem;
+    }
+    .products__legend--TextMill{
+        width: 3.375rem;
+        height: 0.8rem;
+        margin-top: 0.3125rem;
+        margin-left: 1.25rem;
+
+        font-size: 0.7rem;
+        line-height: 0.4rem;
+    }
+    .products__img--Tomat{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__Tomat{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+
+    }
+    .products__img--Almonds{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__Almonds{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+
+    }
+    .products__img--Haz{
+        width: 10.1875rem;
+        height: 18.625rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .products__Haz{
+        height: 15.875rem;
+        width: 21.9375rem;
+        margin-left: 0.625rem;
+        align-items: center;
+        margin-bottom: 0.625rem;
+
+    }
+    /* Testimonial */
+    .testimonial__description--star{
+        margin-bottom: 1.875rem;
+        text-align: center;
+    }
+    .testimonial__description--stars{
+        width: 7.6875rem;
+        height: 1.6875rem;
+    }
+    .testimonial__description--img{
+        width: 7.1875rem;
+        height: 7.1875rem;
+        margin-bottom: 1.125rem;
+    }
+    .testimonial__title{
+        height: 7.625rem;
+        padding: 0 1.875rem 0 1.875rem;
+    }
+    .testimonial{
+        width: 100%;
+        height: 58rem;
+        margin-top: 7.625rem;
+    }
+    .testimonial__wrap{
+        height: 60.4375rem;
+        padding-top: 1.125rem;
+    }
+    .testimonial__description--Text{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .testimonial__description--TextName{
+        padding-top: 0.625rem;
+    }
+    .testimonial__description--Textsmall{
+        font-size: 0.875rem;
+        line-height: 1.6785rem;
+    }
+    .testimonial__description{
+        margin-top: 1.75rem;
+        align-items: center;
+    }
+    .testimonial__rec{
+        width: 22.5rem;
+        margin-top: 1rem;
+
+    }
+    .testimonial__diagrams{
+        margin-top: 2.25rem;
+    }
+    .testimonial__diagrams--organic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial__diagrams--organic-text-header{
+        font-size: 1.625rem;
+        line-height: 1.4375rem;
+    }
+    .testimonial__diagrams--organic-text-secondary{
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .circle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 7.625rem;
+        height: 7.625rem;
+    }
+    /* Other */
+    .otherProduct{
+        width: 100%;
+        height: 66.25rem;
+    }
+    .ottherProduct_wrap{
+        padding:2.75rem 0.875rem 2.75rem 0.875rem;
+        height: 50rem;
+    }
+    .ottherProduct_title--header{
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+    }
+    .ottherProduct_title{
+        height: 10.625rem;
+    }
+    .ottherProduct_btn{
+        width: 10.6875rem;
+        height: 2.5rem;
+
+        border-radius: 0.625rem;
+    }
+    .ottherProduct_btn--Text{
+        margin-left: 1.25rem;
+
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .ottherProduct__product{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Ecofriendly */
+    .content-ecofriendly-img{
+        height:0;
+        width: 0;
+    }
+    .content-ecofriendly-text{
+        width: 100%;
+        position:static;
+        left:0;
+    }
+    .content-ecofriendly-header{
+        padding: 1.5rem 1.5rem 0.875rem 1.75rem;
+    }
+    .content-ecofriendly-small{
+        padding: 0rem 1.5rem 0rem 1.75rem;
+    }
+    .content-ecofriendly-header-text{
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+    }
+    .content-ecofriendly-small-header-text{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding-bottom: 0.625rem;
+    }
+    .content-ecofriendly-small-secondary{
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-bottom: 0.625rem;
+    }
+    /* Plus */
+    .plus-product{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plus-product-img-juice{
+        justify-content: center;
+        height: 16.25rem;
+        margin: 1.375rem;
+
+    }
+    .plus-product-text-wrap{
+        padding: 1.875rem 5rem;
+    }
+    .plus-product-img-food{
+        justify-content: center;
+        height: 16.25rem;
+        margin: 1.375rem;
+    }
+    .plus-product-img-nuts{
+        justify-content: center;
+        height: 16.25rem;
+        margin: 1.375rem;
+    }
+    /* Subscripe */
+    .subscripe-text{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        padding-bottom: 0.625rem;
+    }
+    .subscripe{
+        margin: 0.875rem 0.9375rem 0px 0.875rem;
+        padding: 3.25rem 2.375rem 3.25rem 2.375rem;
+        flex-wrap: wrap;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form__input {
+        width: 9.875rem;
+        margin-right: 0.625rem;
+        padding: 1.3rem;
+
+        font-size: 0.5rem;
+    }
+    .mainbtn-text {
+        margin-left: 0.7rem;
+
+        font-size: 0.6rem;
+        line-height: 0.8125rem;
+    }
+
+    .mainbtn-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+    .mainbtn-sec {
+        width: 7rem;
+        height: 2.5rem;
+    }
+    .subcripe--btn{
+        margin-top: 0.6rem;
+    }
+    /* Contacts */
+    .wrap-contacts{
+        padding: 2.125rem 0px 1.875rem 0px;
+    }
+    .contacts-text{
+        flex-direction: column;
+        padding: 0px 1.875rem 1.25rem 1.875rem;
+    }
+    .contacts-text-us{
+        height: 14rem;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    .contacts-text-us__header{
+        padding-bottom: 1.1875rem;
+
+        font-weight: 1rem;
+        line-height:1.5rem;
+        text-align: center;
+    }
+    .contacts-text-us__secondary{
+        padding-bottom: 1rem;
+    }
+    .contacts-text-us__secondary-header{
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        padding-bottom: 0.625rem;
+    }
+    .contacts-text-us__secondary-other{
+        font-size: 0.6rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+    .contacts-text-info{
+        width: 100%;
+        height: 11.0625rem;
+
+        border-left: none;
+        border-right: none;
+    }
+    .info__logo{
+        margin-bottom: 0.75rem;
+        width: 6.5rem;
+        height: 2.5rem;
+    }
+    .contacts-text-info__text{
+        margin: 0px 1.25rem 1.125rem 1.25rem;
+
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .contacts-logo{
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .logo-messengers{
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .contacts-text-pages{
+        height: 8rem;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .contacts-text-pages__header{
+        padding-bottom: 1.25rem;
+        
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .contacts-text-pages_secondary-other{
+        padding-bottom: 0.5rem;
+
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+}
